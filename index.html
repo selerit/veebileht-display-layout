@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veebilehe layout</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/273cb3409b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--Navigatsioon-->
+        <header class="header">
+            <div class="logo"><i class="fa-solid fa-burger fa-lg"></i> Burx</div>
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="#home">Avaleht</a></li>
+                    <li><a href="#home">Menüü</a></li>
+                    <li><a href="#gallery">Galerii</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Sisu ja külgriba-->
+        <main>
+            <div id="home" class="content-page-1">
+                <div class="content-filter">
+                    <article class="content">
+                        <h2>Burxide koduleht</h2>
+                        <p>Siit leiab valiku maailma kõige paremaid burgereid ja ahvatlevaid pilte!</p>
+                    </article>
+                    <aside class="sidebar">
+                        <h2>Menüü</h2>
+                        <h3>Burgerid</h3>
+                        <ul>
+                            <li>Porgandiburger</li>
+                            <li>Peediburger</li>
+                            <li>Kapsaburger</li>
+                            <li>Seeneburger</li>
+                        </ul>
+                        <h3>Lisandid</h3>
+                        <ul>
+                            <li>Friikad</li>
+                            <li>Salat</li>
+                            <li>Jook</li>
+                        </ul>
+                        <h3>Kastmed</h3>
+                        <ul>
+                            <li>Ketšup</li>
+                            <li>Majonees</li>
+                            <li>Kaste</li>
+                        </ul>
+                        <div class="pakkumised">
+                            <h3>Pakkumised</h3>
+                            <ul>
+                                <li>Seeneburger + jook</li>
+                                <li>2x Porgandiburger</li>
+                                <li>Peediburger salatiga</li>
+                            </ul>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+            <!--Galerii-->
+            <section id="gallery" class="gallery">
+                <h2>Pildigalerii</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="img/burger5.jpg" alt="Pilt 5">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger12.jpeg" alt="Pilt 1">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger6.jpg" alt="Pilt 6">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger16.jpeg" alt="Pilt 16">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger8.jpeg" alt="Pilt 8">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger9.jpeg" alt="Pilt 9">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger10.jpeg" alt="Pilt 10">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger11.jpeg" alt="Pilt 11">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger13.jpeg" alt="Pilt 13">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger14.jpeg" alt="Pilt 14">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger15.jpeg" alt="Pilt 15">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/burger7.jpeg" alt="Pilt 7">
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="contact">
+                <div class="contact-form bg">
+                    <div class="contact-box">
+                        <h2 class="heading">Tellimiseks täida vorm:</h2>
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Nimi</label>
+                                <input type="text" id="name" placeholder="Sisesta oma nimi">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="Sisesta oma email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Telefon</label>
+                                <input type="phone" id="phone" placeholder="Sisesta oma telefon">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Sõnum</label>
+                                <textarea id="message"></textarea>
+                            </div>
+                            <input type="submit" value="Saada" class="btn">
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="social-media">
+            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+            <a href="https://x.com"><i class="fa-brands fa-x-twitter"></i> X</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 BURX</p>
+        </div>
+    </footer>
+</body>
+
+</html>
